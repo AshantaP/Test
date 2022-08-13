@@ -1,0 +1,13 @@
+snowflake_dbt:
+  outputs:
+    dev:
+      account: KE40036.ap-south-1.aws
+      database: dbt
+      password: bluepi@1234	
+      role: SYSADMIN
+      schema: dbt_schema
+      threads: 4
+      type: snowflake
+      user: aditi@bluepi.in
+      warehouse: COMPUTE_WH
+  target: dev

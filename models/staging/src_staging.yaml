@@ -1,0 +1,29 @@
+version: 2
+
+sources:
+  - name: staging
+    database: DBT_RAW
+    schema: TPCH
+    tables:
+      - name: REGION
+        # columns:
+        # - name: R_REGIONKEY
+        #   tests:
+        #     - NOT_NULL
+        #     - UNIQUE
+
+      - name: NATION
+        # columns:
+        # - name: N_NATIONKEY
+        #   tests:
+        #     - NOT_NULL
+        #     - UNIQUE
+        #   - name: ACTOR_ID
+        #     tests:
+        #       - dbt_expectations.expect_column_values_to_be_unique
+        #   - name: FIRST_NAME
+        #     meta:
+        #         masking_policy: temp
+        #  freshness:
+        #       warn_after:{count:12, period:hour}
+        #       error_after:{count:24, period:hour} 

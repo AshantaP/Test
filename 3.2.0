@@ -1,0 +1,5 @@
+Requirement already satisfied: jsonschema in /home/rishabh/.local/lib/python3.8/site-packages (3.2.0)
+Requirement already satisfied: pyrsistent>=0.14.0 in /home/rishabh/.local/lib/python3.8/site-packages (from jsonschema) (0.18.1)
+Requirement already satisfied: six>=1.11.0 in /usr/lib/python3/dist-packages (from jsonschema) (1.14.0)
+Requirement already satisfied: attrs>=17.4.0 in /home/rishabh/.local/lib/python3.8/site-packages (from jsonschema) (20.3.0)
+Requirement already satisfied: setuptools in /usr/lib/python3/dist-packages (from jsonschema) (45.2.0)
